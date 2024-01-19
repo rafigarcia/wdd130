@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffd5c2;
+}
+
+nav {
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    background-color: #c8553d;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #c8553d;
+    background-color: white;
+}
+
+h1 {
+    font-family: Lobster, sans-serif;
+    font-size: 3em;
+    color: #588b8b;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid #f28f3b;
+    padding: 2px;
+    box-shadow: 0 0 30px #c8553d;
+}
+
+p {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #c8553d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+aside {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #c8553d;
+}
+
+aside img {
+    border: 1px solid white;
+    box-shadow: 0 0 30px #588b8b;
+}
+
+aside p {
+    padding: 0;
+    margin: 35px auto 0 auto;
+    font-size: 0.75em;
+}
+
+aside h2 {
+    font-family: Lobster, sans-serif;
+    font-size: 2em;
+    color: #588b8b;
+    text-align: center;
+    margin-top: 0;
+}
+
+.description {
+    font-style: italic;
+    font-size: 1em;
+}
