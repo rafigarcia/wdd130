@@ -31,9 +31,9 @@ body {
 /* Header */
 nav {
     font-family: Poppins, sans-serif;
-    font-size: 35px;
+    font-size: 1.5em;
     background-color: #c8553d;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
@@ -41,7 +41,7 @@ nav a {
     color: white;
     display: block;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav a:hover {
@@ -93,7 +93,39 @@ main {
     font-size: 1.5em;
 }
 
+/* Temples list*/
+.temples {
+    background-color: #c8553d;
+    margin: 1rem;
+    padding: 1rem;
+}
+.temples a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 1.5em;
+}
 
+.temples a:hover, .temples a:focus{
+    color: #c8553d;
+    background-color: white;
+    cursor: pointer;
+}
+.temples ul li {
+    list-style: none;
+}
+
+.temples h2{
+    font-family: Lobster, sans-serif;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-shadow: #f28f3b 0 0 30px;
+}
 
 /*City description*/
 
