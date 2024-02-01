@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Noto+Sans&display=swap');
+
+
+/*Root styles*/
+:root {
+    --primary-color: #ADC178;
+    --secondary-color: #A98467;
+    --accent1-color: #6C584C;
+    --accent2-color: #DDE5B6;
+
+    --heading-font: 'Macondo Swash Caps', cursive, Verdana, Geneva, Tahoma;
+    --paragraph-font: 'Noto Sans', sans-serif;
+
+    --nav-background-color: #6C584C;
+    --nav-link-color: #F0EAD2;
+    --nav-hover-link-color: #6C584C;
+    --nav-hover-background-color: #F0EAD2;
+}
+
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BASIC STYLING*/
+body {
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--nav-hover-background-color);
+    padding: 20px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    padding: 2rem;
+}
+
+p {
+    padding: 1rem;
+}
+
+
+/*HERO STYLE*/
+.hero {
+    position: relative;
+}
+
+.background img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 2em;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.about {
+    margin: 0 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-20%);
+    background-color: rgb(0, 0, 0, 0.45);
+}
+
+.client {
+    display: inline;
+    float: right;
+    padding: 1rem;
+    width: 30%;
+}
+
+.client img {
+    width: 100%;
+    border:1px solid #6C584C;
+    box-shadow: 0 0 10px 0 #6C584C;
+}
+
+
+.about p {
+    font-size: 1.5rem;
+    color: var(--accent2-color);
+    padding: 1rem;
+    text-align: center;
+    
+    
+}

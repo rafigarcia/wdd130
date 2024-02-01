@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Macondo&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Noto+Sans&display=swap');
 :root {
     --primary-color: #DDE5B6;
     --secondary-color: #A98467;
     --accent1-color: #ADC178;
     --accent2-color: #6C584C;
 
-    --heading-font: "Macondo", Verdana, Geneva, Tahoma, sans-serif;
-    --paragraph-font: Arapey, sans-serif;
+    --heading-font: 'Macondo Swash Caps', cursive, Verdana, Geneva, Tahoma;
+    --paragraph-font: 'Noto Sans', sans-serif;
 
     --nav-background-color: #6C584C;
     --nav-link-color: #F0EAD2;
