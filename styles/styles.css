@@ -20,7 +20,7 @@ body {
     background-color: #ffd5c2;
 }
 
-/*Class selectors*/
+/*Class Selectors*/
 .box{
     margin: 1rem;
     padding: 1rem;
@@ -88,6 +88,10 @@ main {
     box-shadow: 0 0 30px #c8553d;
 }
 
+main img {
+    float: right;
+}
+
 .intro p {
     padding: 10px;
     font-size: 1.5em;
@@ -130,30 +134,34 @@ main {
 /*City description*/
 
 aside {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.illinois img {
-    float: inline-start;
-    border: 1px solid white;
-    box-shadow: 0 0 30px #588b8b;
-}
-
-.description p {
-    font-size: 1em;
-    font-style: italic;
-    padding: 10px;
-}
-
+    position: relative;
+    }
+    
+    
+    
 aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 250px;
     font-family: Lobster, sans-serif;
     font-size: 2em;
     color: #588b8b;
 }
+
+
+
+.description p {
+    font-size: 1em;
+    font-style: italic; 
+    padding: 15px; 
+    text-align: center;
+}
+
+.illinois img {
+    border: 1px solid white;
+    box-shadow: 0 0 30px #588b8b;
+}
+
 
 /*Footer*/
 footer {
