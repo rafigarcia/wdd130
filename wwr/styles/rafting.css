@@ -111,14 +111,15 @@ p {
 /* NAVITAGION STYLES */
 
 header{
-   display: flex;
-   justify-content: space-between;
+   display: grid;
+   justify-content: space-evenly;
    align-items: center;
    padding: 1rem;
    background-color: var(--nav-background-color);
 }
 
 nav {
+    grid-column: 2/3;
     display: flex;
     line-height: 1.5em;
     text-align: center;
@@ -145,8 +146,8 @@ nav a:hover {
 }
 
 .logo {
-   width: 150px;
-   
+    grid-column: 1/2;
+    width: 150px;   
 }
 
 .logo img {
