@@ -106,3 +106,135 @@ p {
     
     
 }
+
+
+/* NAVITAGION STYLES */
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   background-color: var(--nav-background-color);
+}
+
+nav {
+    display: flex;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 25px;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.logo {
+   width: 150px;
+   
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+/* HISTORY SECTION */
+
+.history {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color:var(--accent1-color);
+    margin: 20px auto;
+}
+
+.history h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+    border-bottom: 3px #6C584C solid;
+}
+
+
+/* ADVENTURE SECTION */
+
+.adventure {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.galery {
+    display: flex;
+}
+
+.memories {
+    border: thin #ADC178 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+.memories  img {
+    max-width: 200px;
+    height: 120px
+  }
+  
+figcaption {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+
+/* FOOTER STYLE */
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2em;
+    background-color: var(--nav-background-color);
+    color: #F0EAD2;
+}
+
+.sociallinks {
+    display: flex;
+    line-height: 1.5em;
+    padding: 25px;
+    justify-content: flex-end;
+}
+
+.sociallinks a {
+    text-decoration: none;
+    width: 70px;
+}
+
+.sociallinks a img {
+    width: 100%;
+}
+
+footer p {
+    padding: 1rem;
+    white-space: nowrap;
+}
