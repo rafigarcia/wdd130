@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz practice | How well you know me? | Rafaela Garcia | WDD 130</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>How well do you know me?</h1>
+        <p>A quiz to know me better | Rafaela Garcia</p>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>What is your name?</legend>
+                <div class="form-item column2">
+                    <label for="Name">Name:</label>
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="relashionship">Relashionship:</label>
+                    <input type="text" name="relashionship" placeholder="Brother | Friend | Mother">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column2">
+                    <label for="birth-place">Where I was born?:</label>
+                    <input type="text" name="birth-place" id="birth-place">
+                </div>
+                <div class="form-item column2">
+                    <label for="birth-date">When I was born?</label>
+                    <input type="date" name="birth-date" id="birth-date">
+                </div>
+                <div class="form-item column1">
+                    <label for="license">Do I have an active driver license?</label>
+                    <input type="checkbox" id="license" name="license">
+                </div>
+                <div class="form-item column1">
+                    <label for="favcolor">What is my favorite Color?</label>
+                    <select name="favcolor" id="favcolor">
+                        <option value="pink">Pink</option>
+                        <option value="green">Green</option>
+                        <option value="orange">Orange</option>
+                        <option value="purple">Purple</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="hobbie">What is my current hobbie?</label>
+                    <select name="hobbie" id="hobbie">
+                        <option value="videogames">Videogames</option>
+                        <option value="couchpotatoe">Counch Potatoe</option>
+                        <option value="code">Web developing</option>
+                        <option value="workout">Work Out</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="favfood">What is my favorite dish?</label>
+                    <select name="food" id="food">
+                        <option value="lasagna">Lasagna</option>
+                        <option value="turkey">Turkey & Sweetpotato</option>
+                        <option value="ceviche">Ceviche</option>
+                        <option value="calamary">Rings Calamary</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="feedback">Send me a message:</label>
+                    <textarea name="feedback" id="feedback" rows="4" class="feedback" placeholder="I was wondering..."></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Send your Guess!</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | Rafaela </p>
+    </footer>   
+</body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* UNIVERSAL SELECTOR */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLE*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+    font-size: 1.5rem;
+    color: #792d4f;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5em;
+    color: #B49400;
+    text-align: center;
+}
+
+/* FORM STYLE */
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 650px;
+    border: 2px solid blueviolet;
+    border-radius: 0.5rem;
+    background-color: thistle;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid blueviolet;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #792d4f;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Cochin, Georgia, Times, serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding:.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #792d4f;
+    color: #f2f2f2;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: #792d4f;
+}
+
+/* UTILITY CLASS SELECTORS */
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;  
+}
+
+
+
+
+/* FOOTER STYLE  */
+
+footer {
+    margin: 0 auto;
+    width: 650px;
+}
+
+footer p {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 0.8em;
+    text-align: center;
+}
