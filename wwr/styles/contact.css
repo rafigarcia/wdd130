@@ -132,13 +132,13 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: var(--accent1-color) solid 3px;
+    border: var(--secondary-color) solid 3px;
     padding: 1rem;
 }
 
 legend {
     padding: 0.5rem;
-    color: var(--secondary-color);
+    color: var(--accent1-color);
     font-size: 1.5em;
 }
 
@@ -162,10 +162,11 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
+
 button {
     margin: 1rem;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -173,8 +174,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
 }
 
 /* UTILITY CLASS SELECTORS */
