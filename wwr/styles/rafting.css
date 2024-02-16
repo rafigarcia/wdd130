@@ -32,7 +32,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: var(--nav-hover-background-color);
-    padding: 20px;
 }
 
 h1 {
@@ -103,6 +102,7 @@ p {
     color: var(--accent2-color);
     padding: 1rem;
     text-align: center;
+    align-items: center;
     
     
 }
@@ -114,7 +114,7 @@ header{
    display: grid;
    justify-content: space-evenly;
    align-items: center;
-   padding: 1rem;
+   padding: 0;
    background-color: var(--nav-background-color);
 }
 
@@ -125,7 +125,7 @@ nav {
     text-align: center;
     font-size: 1.2em;
     width: 100%;
-    padding: 25px;
+    padding: 0;
 }
 
 nav a {
@@ -213,7 +213,7 @@ figcaption {
 footer {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 0;
     font-size: 1.2em;
     background-color: var(--nav-background-color);
     color: #F0EAD2;
@@ -236,6 +236,102 @@ footer {
 }
 
 footer p {
-    padding: 1rem;
     white-space: nowrap;
+    padding-left: 1.5rem;
+}
+
+
+
+/* TRIPS MAIN SECTION STYLE */
+
+.forest {
+    position: relative;
+    background-color: var(--accent2-color);
+    background-image: url('../images/leaf.jpg');
+    background-size: cover;
+    height: 122rem;
+
+}
+
+.forest h1 {
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+
+.card {
+    width: 27rem;
+    height: 35rem;
+    background-color: rgb(240,255,240, 0.65);
+}
+
+.ride1 {
+    position: absolute;
+    top: 7rem;
+    right: 4rem;
+}
+
+.ride2 {
+    position: absolute;
+    top: 33rem; 
+    left: 4rem;
+}
+
+.ride3 {
+    position: absolute;
+    top: 61rem;
+    right: 4rem;
+}
+
+.contact {
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+}
+
+.rapid {
+    border: thin #ADC178 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    width: 21rem;
+    margin: auto;
+}
+
+.rapid img {
+    width: 100%;
+    box-shadow: 0 0 20px var(--accent1-color);
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+
+.forest button {
+    position: absolute;
+    right: 13rem;
+    bottom: 12rem;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: var(--accent1-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.forest button:hover {
+    background-color:var(--primary-color);
+    color: var(--nav-link-color);
 }
