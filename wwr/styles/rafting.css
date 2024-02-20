@@ -87,7 +87,7 @@ p {
     display: inline;
     float: right;
     padding: 1rem;
-    width: 30%;
+    width: 20%;
 }
 
 .client img {
@@ -265,6 +265,7 @@ footer p {
     width: 27rem;
     height: 35rem;
     background-color: rgb(240,255,240, 0.65);
+    box-shadow: 0 0 20px black;
 }
 
 .ride1 {
@@ -315,7 +316,7 @@ footer p {
     margin: auto;
 }
 
-.forest button {
+.forest .button {
     position: absolute;
     right: 13rem;
     bottom: 12rem;
@@ -326,12 +327,129 @@ footer p {
     text-decoration: none;
     cursor: pointer;
     border: 2px solid #fff;
-    color: var(--accent1-color);
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.forest button:hover {
-    background-color:var(--primary-color);
+.forest .button:hover {
+    background-color:var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+
+/* INDEX HOME SECTION STYLING */
+
+.splash {
+    background-color: aliceblue;
+    background-image: url('../images/rafting.webp');
+    background-size: cover;
+    position: relative;
+    height: 110rem;
+}
+
+.about-index {
+    position: absolute;
+    top: 35rem;
+    left: 10%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 12px;
+    padding: 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-index h1 {
+    font-size: 3rem;
+    color: var(--accent1-color);
+    text-align: center;
+}
+
+.about-index p {
+    font-size: 1.5rem;
+    color: var(--accent1-color);
+    line-height: 2.5rem;
+}
+.about-index .button {
+    display: inline-block;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about-index .button:hover {
+    background-color:var(--nav-background-color);
+    color: var(--nav-link-color);
+}
+
+.mission-index {
+    position: absolute;
+    bottom: 18rem;
+    left: 13%;
+    width: 55%;
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-index h2{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.mission-index p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--accent1-color);
+}
+ 
+.splash .instructor {
+    width: 55%;
+    position: absolute;
+    bottom: 2rem;
+    left: 48%;
+}
+
+.splash .instructor img {
+    width: 100%;
+}
+
+.mission-index .button {
+    display: inline-block;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mission-index .button:hover {
+    background-color:var(--nav-background-color);
     color: var(--nav-link-color);
 }
